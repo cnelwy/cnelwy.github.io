@@ -1,1 +1,2 @@
-# cnelwy.github.io
+## UniLoo: The Ultimate Guide to Accessible Harvard Bathrooms - cnelwy.github.io
+This project aims to recommend a bathroom to a student user in Harvard Yard based on various accessibility factors, such as the presence of an automatic door button or a larger stall, as well as elevator access. Disabled people face many challenges each day that could be avoided with proper accommodations and advocacy. I hope to bring awareness to needed accessible restroom features that many people may typically overlook, while creating a tool that can make a positive impact at Harvard.

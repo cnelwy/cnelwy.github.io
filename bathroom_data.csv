@@ -1,0 +1,24 @@
+building,gender,floor,has_big,is_single,has_button
+Smith,F,1,TRUE,FALSE,FALSE
+Smith,M,1,TRUE,FALSE,FALSE
+Smith,N,10,FALSE,TRUE,FALSE
+Emerson,F,0,FALSE,FALSE,FALSE
+Emerson,M,0,FALSE,FALSE,FALSE
+Emerson,N,0,FALSE,TRUE,TRUE
+Sever,F,0,TRUE,FALSE,TRUE
+Sever,M,0,TRUE,FALSE,TRUE
+Robinson,F,1,TRUE,FALSE,FALSE
+Robinson,M,1,TRUE,FALSE,FALSE
+Robinson,N,2,FALSE,TRUE,TRUE
+Memorial Church,F,0,TRUE,FALSE,TRUE
+Memorial Church,M,0,TRUE,FALSE,FALSE
+Memorial Church,N,0,FALSE,TRUE,FALSE
+Science Center,F,0,TRUE,FALSE,FALSE
+Science Center,M,0,TRUE,FALSE,FALSE
+Cabot Library,F,1,TRUE,FALSE,TRUE
+Cabot Library,M,1,TRUE,FALSE,TRUE
+Memorial Hall,F,0,TRUE,FALSE,TRUE
+Memorial Hall,M,0,TRUE,FALSE,TRUE
+Harvard Hall,F,2,FALSE,FALSE,TRUE
+Harvard Hall,M,2,FALSE,FALSE,TRUE
+Harvard Hall,N,2,FALSE,TRUE,TRUE
