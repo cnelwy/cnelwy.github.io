@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    background-color: #477bff;
+    background-color: #f647ff;
     color: #fff;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
@@ -38,11 +38,13 @@ h1 {
 }
 
 h2 { 
- /* style for header h2 */
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 h3 {
- /* style for header h3 */
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 button, input[type="submit"] {
