@@ -1,1 +1,67 @@
-Hello World
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>UniLoo</title>  
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>UniLoo: The Ultimate Guide to Accessible Harvard Bathrooms</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Indicate your preferences for the restroom recommendation:</h2>
+                <hr>
+                <!--The following questions survey the user's preferences for bathrooms, in order
+                 to provide a feasible, and hopefully helpful, recommendation-->
+
+                 <!--If I had more time, I would implement a feature on the website that geolocates the
+                  user so that this question would not be necessary-->
+                <h3>Which building are you closest to in Harvard Yard right now?</h3>
+                <label for="buildings">Choose a building:</label>
+                <select name="buildings" id="buildings"> 
+                    <option value="barker">Barker Center</option>
+                    <option value="cabot">Cabot Library</option>
+                    <option value="emerson">Emerson</option>
+                    <option value="harvard">Harvard Hall</option>
+                    <option value="memchurch">Memorial Church</option>
+                    <option value="memhall">Memorial Hall</option>
+                    <option value="robinson">Robinson</option>
+                    <option value="scicenter">Science Center</option>
+                    <option value="sever">Sever</option>
+                    <option value="smith">Smith Campus Center</option>
+                </select>
+
+                <!--This is for the purpose of recommending a bathroom the user would be comfortable with-->
+                <h3>What gender do you identify with?</h3>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="nonbinary" name="gender" value="Nonbinary">
+                    <label for="nonbinary">Nonbinary</label>
+
+                <!--Depending on the user's needs, they may require stall or single bathroom-->
+                <h3>Would you prefer a single or stall bathroom?</h3>
+                    <input type="radio" id="single" name="bathroom" value="Single">
+                    <label for="single">Single</label><br>
+                    <input type="radio" id="stall" name="bathroom" value="Stall">
+                    <label for="stall">Stall</label><br>
+
+                <!--If the user clicked stall bathroom in the previous question and requires accessibility
+                accomodations, they will only be provided with recomendations of stall bathrooms where
+                there is a big stall present-->
+                <h3>Do you require an accessible bathroom, including a door-opening button and
+                    the presence of a larger stall?</h3>
+                    <input type="radio" id="yes" name="option" value="Yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="option" value="No">
+                    <label for="no">No</label><br>
+            </div>
+        </div>
+    </body>
+</html>                    
