@@ -5,19 +5,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $bathroom = htmlspecialchars($_POST["bathroom"]);
     $access = htmlspecialchars($_POST["access"]);
 
-// File path for the CSV file
-$file = "responses.csv";
-
-// Open the file in append mode
-$handle = fopen($file, "a");
-
-// Write the form data to the CSV file
-fputcsv($handle, [$building, $gender, $bathroom, $access]);
-
-// Close the file
-fclose($handle);
-
-echo "Data submitted successfully!";
-
+    echo "<h1>Form Submission</h1>";
+    echo "Building: $building<br>";
+    echo "Gender: $gender<br>";
+    echo "Bathroom Type: "$bathroom"<br>";
+    echo "Accessibility: $access<br>";
 }
 ?>
