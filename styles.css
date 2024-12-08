@@ -14,17 +14,13 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
-header {
-    background-image: url('harvard.jpg'); /* Path to the image */
-    background-size: cover; /* Scale the image to cover the entire area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    height: 200px; /* Set the height of the header */
-    color: white; /* Text color */
-    display: flex; /* Center content */
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Optional text shadow for better readability */
+
+.header {
+    background-color: #f647ff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
 }
 
 .section {
