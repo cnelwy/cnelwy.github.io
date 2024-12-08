@@ -13,7 +13,7 @@
         </div>
 
         <div class="container">
-            <div class="section">
+            <form>
                 <h2>Indicate your preferences for the restroom recommendation:</h2>
                 <hr>
                 <!--The following questions survey the user's preferences for bathrooms, in order
@@ -61,7 +61,18 @@
                     <label for="yes">Yes</label><br>
                     <input type="radio" id="no" name="option" value="No">
                     <label for="no">No</label><br>
-            </div>
+
+                <!--Creates a submit button for the user to press when finished-->
+                <button type="button" id="submitButton">Submit</button>
+
+                <!--Makes a notice pop up after the user submits the survey-->
+                <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+                        document.getElementById('submitButton').
+                        addEventListener('click', function () {alert('Form submitted!');});
+                    });
+                </script>
+            </form>
         </div>
     </body>
 </html>                    
